@@ -37,3 +37,6 @@ footer{font-size:12px}
 
 /* Finish the page at its content, without a separate footer. */
 .content-section:last-child{padding-bottom:30px}.content-section:last-child .publication:last-child{border-bottom:0}.education{padding-bottom:20px}
+
+/* Preserve the supplied closer portrait's native proportions. */
+.portrait.photo{aspect-ratio:1010/1495}.portrait.photo img{height:auto}
