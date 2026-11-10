@@ -40,3 +40,11 @@ footer{font-size:12px}
 
 /* Preserve the supplied closer portrait's native proportions. */
 .portrait.photo{aspect-ratio:1010/1495}.portrait.photo img{height:auto}
+
+/* Bring selected work into the desktop first screen. */
+@media(min-width:701px){
+ .hero{padding-top:40px;padding-bottom:20px}
+ .hero aside{padding-top:18px}
+ .hero .portrait.photo{width:230px;margin-inline:auto}
+ .hero+.content-section{padding-top:24px}
+}
